@@ -1,7 +1,15 @@
 h1{
 color :rgb(196, 85, 16)
+font-family:"madimi one",sans-serif;
 }
 p{
     color:green;
     font-size: 20px;
+    font-family:"familjen grotesk",sans-serif;
+}
+div{
+    background-color:cornsilk;
+}
+#title_prep{
+    corlor:greenyellow;
 }
