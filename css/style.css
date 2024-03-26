@@ -32,7 +32,7 @@ html::-webkit-scrollbar-track{
     body{
         background:#111;
         overflow-x:hidden;
-        padding-left:35rem;
+       /* padding-left:35rem;*/
     }
     section{
         min-neight:100vh;
@@ -125,7 +125,7 @@ header.navbar ul li a:hover{
     color:#fff;
     cursor:pointer;
     font-size:3rem;
-    padding:1rem1.5rem;
+    padding:1rem 1.5rem;
     z-index:1000;
     display:none;
 }
@@ -308,9 +308,9 @@ education .box-container.box p{
     html{
         font-size: 55%;
     }
-    .home{
+   /* .home{
         padding:1rem 4rem ;
-    }
+    }*/
 }
 @media(max-width:991px){
     header{
