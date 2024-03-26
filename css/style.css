@@ -32,10 +32,10 @@ html::-webkit-scrollbar-track{
     body{
         background:#111;
         overflow-x:hidden;
-       /* padding-left:35rem;*/
+        padding-left:35rem;
     }
     section{
-        min-neight:100vh;
+        min-height:100vh;
         padding:1rem ;
     }
 
