@@ -109,7 +109,7 @@ html::-webkit-scrollbar-track{
 header.navbar ul li a{
     display:block;
     padding: 1rem;
-    margin: 1.5rem;
+    margin: 1.5rem 0;
     background: #333;
     color:#fff;
     font-size:2rem;
