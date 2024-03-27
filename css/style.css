@@ -81,6 +81,7 @@ html::-webkit-scrollbar-track{
         flex-flow: column;
         text-align: center;
     }
+   
     header.user img{
         height:17rem;
         width:17rem;
@@ -90,7 +91,7 @@ html::-webkit-scrollbar-track{
         border:.7rem solid var(--yellow);
     }
     header .user.name{
-        font-size:3.5rem;
+        font-size: 3.5rem;
         color:#fff;
     }
     header .user.surname{
