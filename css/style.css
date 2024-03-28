@@ -90,15 +90,15 @@ html::-webkit-scrollbar-track{
         margin-bottom: 1rem;
         border:.7rem solid var(--yellow);
     }
-    header .user.name{
+    header .user .name{
         font-size: 3.5rem;
         color:#fff;
     }
-    header .user.surname{
+    header .user .surname{
         font-size:3.5rem;
         color:#fff;
     }
-    header .user.post{
+    header .user .post{
         font-size:2rem;
         color:#eee;
     }
