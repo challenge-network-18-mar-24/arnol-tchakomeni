@@ -1,11 +1,11 @@
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root{
     --yellow:#f9ca24;
 }
 
 *{
-    font-family:"nunito",sans-serif;
+    font-family:"oppins",sans-serif;
     margin:0; padding:0;
     box-sizing:border-box;
     text-decoration:none;
@@ -32,16 +32,23 @@ html::-webkit-scrollbar-track{
         background:var(--yellow);
          }
     body{
-        background:#111;
+        background:#087c39;
         overflow-x:hidden;
         padding-left:35rem;
+        font-size: 150%;
     }
-    section{
+    h1{
+        height: 25px;
+        text-align: center;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+   /* section{
         min-height:100vh;
         padding:1rem ;
-    }
+    }*/
 
-    .btn{
+   .btn{
         padding:.7rem 3rem;
         background: #333;
         color:#fff;
@@ -58,22 +65,22 @@ html::-webkit-scrollbar-track{
         background:var(--yellow) ;
     }
     .heading{
-        text-align: center;
-        margin: 0 6rem;
+        /*text-align: center;
+        margin: 0 6rem;*/
         font-size: 4rem;
-        padding: 1rem;
-        border-bottom: .1rem solid #fff5;
+        padding: 2rem;
+      /* border-bottom: .1rem solid #fff5;*/
         color: #fff;
     }
-    .heading span{
+.heading span{
         color:var(--yellow)
     }
     header{
         position: fixed;
         top:0; left:0;
-        z-index:1000;
+        /*z-index:1000;*/
         height: 100%;
-        width: 35rem;
+        width: 25rem;
         background: #1a1a1a;
         display:flex;
         align-items:center;
@@ -81,16 +88,24 @@ html::-webkit-scrollbar-track{
         flex-flow: column;
         text-align: center;
     }
-   
-    header.user img{
-        height:17rem;
-        width:17rem;
+    img {
         border-radius: 50%;
-        object-fit: cover;
-        margin-bottom: 1rem;
-        border:.7rem solid var(--yellow);
+        height:250px;
+        width: 250px;
+        padding: 3rem;
+  
+      }
+      .user h3 {
+        font-size: 3rem;
+        
+        color: rgb(27, 173, 173);
     }
-    header .user .name{
+    .user p {
+        font-size: 1.5rem;
+        color:#1b54a8;
+    }
+      
+    /*header .user .name{
         font-size: 3.5rem;
         color:#fff;
     }
@@ -99,25 +114,25 @@ html::-webkit-scrollbar-track{
         color:#fff;
     }
     header .user .post{
-        font-size:2rem;
+        font-size:1.5rem;
         color:#eee;
     }
     header.navbar{
             width:100%;
-    }
+    }*/
     header.navbar ul{
         list-style:none;
         padding:1rem 3rem;
 }
-header.navbar ul li a{
+/*header.navbar ul li a{
     display:block;
-    padding: 1rem;
-    margin: 1.5rem 0;
+    padding:1rem;
+    margin:1.5rem 0;
     background: #333;
     color:#fff;
     font-size:2rem;
     border-radius: 5rem;
-}
+}*/
 header.navbar ul li a:hover{
     background: var(--yellow);
 }
@@ -144,7 +159,7 @@ header.navbar ul li a:hover{
     color:#fff;
 }
 .home h1{
-    font-size: 5rem;
+    font-size: 4rem;
     color:#fff;
 }
 .home h1 span{
@@ -156,7 +171,9 @@ header.navbar ul li a:hover{
     color:#eee;
     padding: 1rem 0;
 }
-.about.row{
+/*about me*/
+
+/*.about.row{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -175,7 +192,7 @@ header.navbar ul li a:hover{
     padding:1rem 0;
     font-weight:normal;
 }
-about.row.info h2 span{
+.about.row.info h2 span{
     color:#eee;
     padding: 0 5rem;
 }
@@ -202,12 +219,14 @@ about.row.info h2 span{
     font-size: 2rem;
     color:#fff;
 }
+*/
+/*education*/
 .education .box-container{
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 1rem 0;
+    padding: 2.5rem 0;
     padding-left: irem;
 
 }
@@ -311,7 +330,7 @@ education .box-container.box p{
     html{
         font-size: 55%;
     }
-   /* .home{
+   /*.home{
         padding:1rem 4rem ;
     }*/
 }
@@ -321,8 +340,9 @@ education .box-container.box p{
     }
     #menu{
         display: block;
+        color:#fff;
     }
-    header.togglet{
+    header.toggle{
         left:0%;
     }
     body{
@@ -352,3 +372,32 @@ education .box-container.box p{
         margin: 3rem 0;
     }
 }
+/*social media*/
+.social-media {
+    position: fixed;
+    bottom: 10px;
+    left: 90%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .social-media a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    transition: transform 0.2s ease;
+  }
+  
+  .social-media a:hover {
+    transform: translateY(-5px);
+  }
+  
+  .social-media img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
