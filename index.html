@@ -28,10 +28,12 @@
 
     .navbar {
       display: block;
+      justify-content: space-between;
       padding: 1rem;
       margin: 1.5rem 0;
       background: #333;
       color: #fff;
+      overflow: hidden;
       font-size: 2rem;
       border-radius: 5rem;
     }
@@ -42,6 +44,7 @@
   <h1>my web site presentation </h1>
 
   <header>
+    <!--
     <div class="user">
       <img src="./immagini/image.jpg" alt="image" width="400" height="341" />
       <h3 class="name"> arnol blondel </h3>
@@ -49,7 +52,22 @@
 
       <p class="post"> front end developer </p>
     </div>
+  -->
+  <div class="user">
+    <img
+      src="./immagini/image.jpg"
+      alt="Image"
+      width="400"
+      height="341"
+    />
+    <h3 class="name">Arnol Blondel</h3>
+    <h3 class="surname">Tchakomeni PENE</h3>
+    <p class="post">Front End Developer</p>
+  </div>
 
+  <nav class="navbar">
+    <div class="menu">
+      
     <nav class="navbar">
       <ul>
         <li><a href="#home">home</a></li>
@@ -69,7 +87,7 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, cupiditate! Quas corporis eligendi
       et, itaque mollitia accusamus accusantium explicabo dolore
       necessitatibus ab, nihil aliquam officia pariatur tempore molestiae sequi ex.</p>
-    <a herf="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
   </section>
   <!--home section ends-->
 
